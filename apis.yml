@@ -1,7 +1,25 @@
 aid: bluebox
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluebox.png
 name: Bluebox
-description: Bluebox is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bluebox (Bluebox Security) was an enterprise mobile and application security
+  startup founded around 2012 that let organizations secure corporate data on employee-owned
+  smartphones and tablets without managing the whole device. It raised roughly $27.5M, with
+  Andreessen Horowitz (a16z) leading its Series A and returning for the Series B alongside
+  Tenaya Capital, Andreas Bechtolsheim, and SV Angel. Its technology assets were acquired by
+  Lookout on April 8, 2016, after which Bluebox ceased operating as an independent company.
+  It was a packaged security product vendor, not a public API provider, and it maintains no
+  live developer portal, documentation, or API surface today.
 url: https://raw.githubusercontent.com/api-evangelist/bluebox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,30 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Lookout
+x-acquired-year: 2016
+x-defunct: true
+x-not-api-provider: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Security
+- Mobile Security
+- Application Security
+- Enterprise Security
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
