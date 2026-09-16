@@ -23,14 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluebox.png
 name: Bluebox
-description: Bluebox (Bluebox Security) was an enterprise mobile and application security
-  startup founded around 2012 that let organizations secure corporate data on employee-owned
-  smartphones and tablets without managing the whole device. It raised roughly $27.5M, with
-  Andreessen Horowitz (a16z) leading its Series A and returning for the Series B alongside
-  Tenaya Capital, Andreas Bechtolsheim, and SV Angel. Its technology assets were acquired by
-  Lookout on April 8, 2016, after which Bluebox ceased operating as an independent company.
-  It was a packaged security product vendor, not a public API provider, and it maintains no
-  live developer portal, documentation, or API surface today.
+description: Bluebox (Bluebox Security) was an enterprise mobile and application security startup founded
+  around 2012 that let organizations secure corporate data on employee-owned smartphones and tablets without
+  managing the whole device. It raised roughly $27.5M, with Andreessen Horowitz (a16z) leading its Series
+  A and returning for the Series B alongside Tenaya Capital, Andreas Bechtolsheim, and SV Angel. Its technology
+  assets were acquired by Lookout on April 8, 2016, after which Bluebox ceased operating as an independent
+  company. It was a packaged security product vendor, not a public API provider, and it maintains no live
+  developer portal, documentation, or API surface today.
 url: https://raw.githubusercontent.com/api-evangelist/bluebox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,14 +37,14 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired
+x-status: defunct
 x-acquired-by: Lookout
 x-acquired-year: 2016
 x-defunct: true
 x-not-api-provider: true
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Security
